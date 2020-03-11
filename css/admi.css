@@ -1,0 +1,30 @@
+
+  
+  .box1{
+  
+    width: 550px;
+    height: 500px;
+    margin: auto;
+    background: #F4FFFE;
+    text-align: center;
+    border: 20px solid transparent;
+    background-image: url(img/mobiliario.jpg);
+    background-repeat: no-repeat;
+    -moz-border-image: -moz-linear-gradient(top left, #3acfd5 0%, #3a4ed5 100%);
+    -webkit-border-image: -webkit-linear-gradient(top left, #3acfd5 0%, #3a4ed5 100%);
+    border-image: linear-gradient(to bottom right, #3acfd5 0%, #3a4ed5 100%);
+    border-image-slice: 1;
+  }
+
+  #texto1{
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(0, 37, 245);
+        text-transform: uppercase;
+        font-size: 60px;
+        font-weight: 350;
+        letter-spacing: 3px;
+        line-height: 1.5;
+        position: relative;
+       
+    
+  }

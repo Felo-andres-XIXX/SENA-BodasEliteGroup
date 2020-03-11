@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+ <title>Bodas Elite</title>
+ <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="footer, address, phone, icons" />
+ 
+	<title>Responsive Footer</title>
+ 
+	<link rel="stylesheet" href="css/estilo.css">
+
+	<link rel="stylesheet" href="css/fuentesIndex.css">
+	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+ 
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    
+    <link href="css/estilo.css" rel="stylesheet" type="text/css">
+ 
+
+</head>
+<body>
+
+<div class="topnav">
+  <a href="nosotros.php">Nosotros</a>
+  <a href="Registro_cliente.php">Registro</a>
+  <a href="admi.php">Administrador</a>
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit">Buscar</button>
+    </form>
+  </div>
+</div>
+</body>
+
+<body>
+
+ <div class="fondos">
+ 
+    <div align="center">
+      <img src="css/img/elite.png" style="width: 20%">
+    </div>
+ 
+
+    <div class="btn-group" style="width:100%">
+      <a href="index.php"><button style="width:16.663%">Inicio</button></a>
+      <a href="eventos.php"><button style="width:16.663%">Eventos</button></a>
+      <a href="menu.php"><button style="width:16.663%">Menu</button></a>
+      <a href="servicios.php"><button style="width:16.663%">Servicios</button></a>
+      <a href="iniciar_sesionC.php"><button style="width:16.663%">Iniciar Sesion</button></a>
+      <a href="contacto.php"><button style="width:16.663%">Contacto</button></a>
+  
+     </div>
+
+</body>
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+  .mySlides {display:none;}
+  </style>
+
+<body>
+     
+	  <br></br>
+	  <br>
+  
+   	 <div class="w3-center">
+		
+	    <div class ="rox">
+		  <br>
+	       <a id="color1">Somos una empresa organizadora, 
+	       productora de eventos sociales y 
+	       empresariales creada hace año y medio 
+	       pero con una experiencia de 20 años de los socios.
+	       Se especializa en Bodas 15 años, cumpleaños,
+	       despedidas de fin de año 
+	       y eventos de empresas
+	       y nuestro proposito es la satisfaccion 
+	       total de nuestros clientes.<a id="color1">
+	
+</div> 
+<br></br> 
+	
+    <div class="w3-content w3-display-container" align="center">
+      <img class="mySlides w3-animate-right" class="mySlides" src="css/img/img_1239.jpg" style="width:75%"> 
+      <img class="mySlides w3-animate-left" class="mySlides" src="css/img/img_2242.jpg" style="width:75%">
+      <img class="mySlides w3-animate-right" class="mySlides" src="css/img/img_2474.jpg" style="width:75%">
+      <img class="mySlides w3-animate-left" class="mySlides" src="css/img/img_2232.jpg" style="width:75%">
+      <br>
+      <a id="color2">Eventos Recientes
+	  <br></br> 
+	  <br></br> 
+
+    </div>
+       
+	
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+</script>
+
+<footer class="footers-distributed">
+			<div class="footers-left">
+    			 <h3>Nuestros<span> Servicios</span></h3>
+			 	<p class="footers-links">
+					<a href="menu.php">Buffet</a>
+					<br>
+					<a href="enlace.php">Salones</a>
+					<br>
+					<a href="decoracion.php">Decoracion</a>
+					<br>
+					<a href="Servicios.php">Untencilios</a>
+				</p>
+			</div>
+			
+				<div class="footers-center">	
+					<p class="footers-links">
+					<a href="eventos.php">SOLICITAR EVENTO</a>
+					</p>	
+				</div>
+				<div class="footers-right">
+				<p class="footers-company-about">
+				Planeamos y diseñamos fiesta Tematicas,
+				 clásicas, modernas donde eres tu el que escogue lo que quiere</p>
+
+</footer>
+	
+
+<footer class="footer-distributed">
+			<div class="footer-left">
+          <img src="css/img/elite.png" style="width: 18%">
+				<h3>Euro<span>Bodas</span></h3>
+ 
+				<p class="footer-links">
+					<a href="index.php">Inicio</a>
+					|
+					<a href="Nosotros.php">Sobre Nosotros</a>
+					|
+					<a href="#">About</a>
+					|
+					<a href="#">Contacto</a>
+				</p>
+ 
+				<p class="footer-company-name">© 2019 EuroBodas Derechos reservados </p>
+			</div>
+ 
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					  <p><span>a 22b-71,, Cra. 44a #22b1</span>
+						Colombia, Bogota - 110111</p>
+				</div>
+ 
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+57 321 477 1511</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:comercial01.bodaselite@gmail.com">comercial01.bodaselite@gmail.com</a></p>
+
+
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>Mas de nosotros</span>
+					Ofrecemos todo tipo de eventos, sociales, empresariales, y todo lo referente a cada uno.</p>
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-youtube"></i></a>
+				</div>
+			</div>
+        </footer>
+        </body>
+
+</html>

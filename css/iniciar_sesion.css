@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+.contenedor{
+	font-family: 'Open Sans Condensed', sans-serif;
+	background-image: url(../img/img3.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	color: white;
+	height: 789px;	
+}
+
+.subcontenedor{
+	width: 30%;
+	margin: auto;
+	font-size: 1.5em;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction:column;
+}
+.sombra{
+	background-color: rgba(0,0,0,.5);
+	/*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
+	padding: 35px;
+	border-radius:5px;
+}
+.subtitulo{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.formControl{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.formControl label{
+	margin: 10px 0;
+	font-family: arial;
+	font-size: 20px;
+}
+.formControl input{
+	padding: 10px 10px;
+	border:none;
+	font-size: 0.8em;
+	border-radius: 5px;
+	cursor: pointer;
+	color: black;
+	width: 100%;
+
+}
+
+.formControl input[type="submit"]{
+	background-color: #bfbfbf;	
+}
+
+.formControl input[type="submit"]:hover{
+	background-color: white ;
+	color:  #80bfff;
+	transition: .8s;	
+}
+.checkbox{
+	margin: 15px 0;
+}
+.botonHome{
+	cursor: pointer;
+	color: #fff;
+}
+.botonHome:hover{
+	color: #d00053;
+	transition: .8s;	
+}
+.boton{
+	border:none;
+	background-color: rgba(0,0,0,.2);
+	border: 2px solid #fff;
+	color: #fff;
+	padding: 7px 12px;
+	font-size: 25px;
+	cursor: pointer;
+	border-radius: 5px;
+
+}
+.boton a {
+	color: white;
+	font-size: 20px;
+}
+.boton:hover{
+	background-color: #d00053;
+	transition:.6s;
+}
+.bot{
+    margin-bottom: 1px;
+}
+.bot ol a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 5px;
+	display: flex;
+	
+}
+.bot ol a:hover{
+	/*color: #fe6256;*/
+	color: #d00053;
+	transition: .5s;
+}
+
+.alert{
+  width: 100%;
+  color: #e65656;
+  border-radius: 20px;
+  margin: 15px auto;
+  font-family: 'Arial';
+  font-size: 20px;
+  text-align: center;
+}
+
+.msg_error{
+	color: #e65656;
+	text-align: center;
+}
+
+.msg_save{
+	color: #126e00;
+	text-align: center;
+}
+
+h1{
+	font-family: arial;
+	text-align: center;
+}
+
+h1:hover{
+	color: #d00053;
+	transition: .5s;
+}
+
+h3{
+	font-family: arial;
+	text-align: center;
+	font-size: 25px;
+}
+

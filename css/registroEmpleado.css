@@ -1,0 +1,35 @@
+.fondoE{
+    margin: 0;
+    min-height: 100vh;
+    position: relative;
+    background-image: url(img/registro2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.box1{
+  
+    width: 380px;
+    height: 650px;
+    margin: auto;
+    background: #F4FFFE;
+    text-align: center;
+    border: 20px solid transparent;
+  
+    -moz-border-image: -moz-linear-gradient(top left, #3acfd5 0%, #3a4ed5 100%);
+    -webkit-border-image: -webkit-linear-gradient(top left, #3acfd5 0%, #3a4ed5 100%);
+    border-image: linear-gradient(to bottom right, #3acfd5 0%, #3a4ed5 100%);
+  
+    border-image-slice: 1;
+  }
+  .box1 input{
+    text-align:center;
+    border-radius: 11px;
+    padding: 5px 5px;
+  }
+  .box1 label{
+    width: 1000px;
+  }
+  

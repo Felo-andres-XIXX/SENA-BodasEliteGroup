@@ -1,0 +1,238 @@
+footers{
+	position: relative;
+	bottom: 0;
+}
+ 
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+ 
+ 
+.footers-distributed{
+	background-color: rgb(255, 255, 255);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	
+}
+ 
+.footers-distributed .footers-left,
+.footers-distributed .footers-center,
+.footers-distributed .footers-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+/* Footer left */
+ 
+.footers-distributed .footer-left{
+	width: 30%;
+}
+ 
+.footers-distributed h3{
+	color:  #4b4b4b;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+ 
+/* The company logo */
+ 
+.footers-distributed .footer-left img{
+	width: 30%;
+}
+ 
+.footers-distributed h3 span{
+	color:  #D81B60;
+}
+ 
+/* Footer links */
+ 
+.footers-distributed .footers-links{
+	color:  #5b5b5b;
+	margin: 20px 0 12px;
+}
+ 
+.footers-distributed .footers-links a{
+  display:inline-block;
+  font-size: 18px;
+	font-weight: bolder;
+	line-height: 2.5;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footers-distributed .footer-company-name{
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+/* Footer Center */
+ 
+.footers-distributed .footers-center{
+	width: 35%;
+}
+ 
+ 
+.footers-distributed .footers-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footers-distributed .footers-center i.fa-envelope{
+	font-size: 30px;
+	line-height: 38px;
+}
+ 
+.footers-distributed .footers-center p{
+	display: inline-block;
+	color: #4b4b4b;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footers-distributed .footers-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+  line-height:2.5;
+  
+}
+ 
+.footers-distributed .footers-center p a{
+	color:  rgb(0, 38, 154);
+  text-decoration: none;
+  margin: 100px 50px auto;
+  font-size: 30px;
+  
+}
+ 
+ 
+/* Footer Right */
+ 
+.footers-distributed .footers-right{
+  width: 30%;
+  
+  
+}
+ 
+.footers-distributed .footers-company-about{
+	line-height: 20px;
+	color:  #a50000;
+	font-size: 20px;
+  font-weight: normal;
+  margin: 100px auto;
+	margin: 0;
+}
+ 
+.footers-distributed .footers-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.footers-distributed .footers-icons{
+	margin-top: 25px;
+}
+ 
+.footers-distributed .footers-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+ 
+ 
+@media (max-width: 880px) {
+ 
+	.footers-distributed .footers-left,
+	.footers-distributed .footers-center,
+	.footers-distributed .footers-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footers-distributed .footers-center i{
+		margin-left: 0;
+	}
+ 
+}
+
+    #color1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 350;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    position: relative;
+    }
+    
+  #color2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(240, 3, 3);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 350;
+    letter-spacing: 3px;
+    line-height: 1;
+    position: relative;
+    }
+    
+  
+      
+    
+    .rox {
+      width: 737px;
+      height: 230px;
+      margin: 20px auto;
+      background-color: rgba(1,1,1,0.8 );
+    }
+    
+    
+    .rox1 {
+      width: 200px;
+      height: 150px;
+      margin: 20px auto;
+      background-color: rgba(1,1,1,0.8 );
+    }
+
+
+    .rox2 {
+      width: 1359px;
+      height: 300px;
+      margin: auto;
+      background-color: rgb(201, 197, 197);
+
+    }
+
